@@ -35,6 +35,7 @@ const scrollHeader = () => {
 window.addEventListener("scroll", scrollHeader);
 
 /*=============== PARALLAX ===============*/
+let parallax = new Rellax(".parallax");
 
 /*=============== GSAP ANIMATION ===============*/
 
