@@ -33,9 +33,6 @@ const scrollHeader = () => {
     : header.classList.remove("bg-header");
 };
 window.addEventListener("scroll", scrollHeader);
-/*=============== SHOW SCROLL UP ===============*/
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 /*=============== PARALLAX ===============*/
 
