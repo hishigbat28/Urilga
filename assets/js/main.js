@@ -16,6 +16,7 @@ if (navClose) {
     navMenu.classList.remove("show-menu");
   });
 }
+
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll(".nav__link");
 
@@ -45,7 +46,7 @@ gsap.from(".home__mountain-3", 1.2, { opacity: 0, x: -150, delay: 0.6 });
 gsap.from(".home__mountain-1", 1.2, { opacity: 0, x: 250, delay: 0.7 });
 
 // snowfall
-const container = document.querySelector(".container");
+const body = document.querySelector(".body");
 const createSnow = () => {
   const snow = document.createElement("span");
   snow.className = "snow";
@@ -57,7 +58,7 @@ const createSnow = () => {
   snow.style.height = snowSize + "px";
 
   snow.style.left = Math.random() * 100 + "%";
-  container.appendChild(snow);
+  body.appendChild(snow);
   setTimeout(() => {
     snow.remove();
   }, 10000);

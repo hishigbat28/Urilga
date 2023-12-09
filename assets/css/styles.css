@@ -18,7 +18,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Ariel", sans-serif;
   --second-font: "Dancing Script", cursive;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.8rem;
@@ -88,7 +88,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.amjilt-logo {
+  width: max-content;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
@@ -180,19 +182,18 @@ img {
 }
 
 .nav__logo img {
-  width: 30px;
-  transform: rotate(-10deg);
+  width: 90px;
+  margin-left: -1rem;
 }
 
 .nav__logo {
   align-items: center;
-  column-gap: 0.25rem;
   font-family: var(--second-font);
   font-size: var(--h2-font-size);
 }
 
 .nav__toggle {
-  font-size: 1.25rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -554,4 +555,12 @@ img {
     opacity: 0;
     top: 100vh;
   }
+}
+
+.yeronhiih2 {
+  margin-bottom: 0.5rem;
+}
+
+olcontainer {
+  row-gap: 2.4rem;
 }
