@@ -50,8 +50,8 @@ const createSnow = () => {
   const snow = document.createElement("span");
   snow.className = "snow";
 
-  const minSize = 5;
-  const maxSize = 10;
+  const minSize = 3;
+  const maxSize = 7;
   let snowSize = Math.random() * (maxSize - minSize) + minSize;
   snow.style.width = snowSize + "px";
   snow.style.height = snowSize + "px";
