@@ -43,4 +43,23 @@ gsap.from(".home__pine", 1.2, { opacity: 0, y: 150, delay: 0.3 });
 gsap.from(".home__mountain-2", 1.2, { opacity: 0, x: 150, delay: 0.5 });
 gsap.from(".home__mountain-3", 1.2, { opacity: 0, x: -150, delay: 0.6 });
 gsap.from(".home__mountain-1", 1.2, { opacity: 0, x: 250, delay: 0.7 });
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+
+// snowfall
+const container = document.querySelector(".container");
+const createSnow = () => {
+  const snow = document.createElement("span");
+  snow.className = "snow";
+
+  const minSize = 5;
+  const maxSize = 10;
+  let snowSize = Math.random() * (maxSize - minSize) + minSize;
+  snow.style.width = snowSize + "px";
+  snow.style.height = snowSize + "px";
+
+  snow.style.left = Math.random() * 100 + "%";
+  container.appendChild(snow);
+  setTimeout(() => {
+    snow.remove();
+  }, 10000);
+};
+setInterval(createSnow, 100);

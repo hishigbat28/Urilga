@@ -518,3 +518,40 @@ img {
     margin-inline: auto;
   }
 }
+
+/* Snow Fall animation css */
+.snow {
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  animation: snowfall 10s linear;
+}
+
+@keyframes snowfall {
+  0% {
+    opacity: 0;
+    top: 0;
+    transform: translateX(-5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  30% {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+  40% {
+    transform: translateX(-5px);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 100vh;
+  }
+}
