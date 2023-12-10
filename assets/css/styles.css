@@ -116,7 +116,7 @@ img {
 
 .main {
   overflow: hidden; /* For animations */
-  background-color: rgba(56, 56, 145, 0.498);
+  background-color: rgb(24, 70, 123);
 }
 
 /* Snow animation */
