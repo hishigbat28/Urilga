@@ -284,8 +284,12 @@ img {
   font-family: myFont;
   text-align: center;
   /* margin-top: 1.5rem; */
-  margin: 1.5rem 0;
+  margin: 1.5rem 0.3rem;
 }
+.home__title > .garchig {
+  font-size: 2.3rem;
+}
+
 .home img {
   position: absolute;
 }
@@ -451,6 +455,9 @@ img {
   .home__title {
     font-size: 4rem;
   }
+  .home_tittle > span {
+    font-size: 20 rem;
+  }
   .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
@@ -488,7 +495,7 @@ img {
     height: 980px;
   }
   .home__title {
-    font-size: var(--);
+    font-size: var(--biggest-font-size);
   }
   .home__mountain-1,
   .home__mountain-2,
