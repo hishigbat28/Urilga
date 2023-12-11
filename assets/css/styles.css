@@ -280,7 +280,7 @@ img {
 }
 .home__title {
   color: var(--white-color);
-  font-size: var(--smallest-font-size);
+  /* font-size: var(--biggest-font-size); */
   font-family: myFont;
   text-align: center;
   /* margin-top: 1.5rem; */
